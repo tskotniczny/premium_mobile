@@ -1,0 +1,11 @@
+$brand-color:  rgb(228,58, 44);
+
+.modal-title{
+    font-size: 50px;
+    color: $brand-color;
+    margin: 15px auto;
+}
+
+#modal-close-button{
+    margin: -15px -15px -15px -15px;
+}

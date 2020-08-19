@@ -1,0 +1,17 @@
+//BOOTSRAP
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+//PAGES
+@import 'pages/index';
+
+
+//LAYOUTS
+@import 'layouts/_header';
+
+
+//COMPONENTS
+@import 'components/_card';
+@import 'components/_modal';

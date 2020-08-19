@@ -1,0 +1,45 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+$brand-color:  rgb(228,58, 44);
+
+.cards-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    padding: 20px;
+    width: 260px;
+
+    &:hover{
+        border:  rgb(228,58, 44) solid 1px;
+    }
+}
+
+.card-title{
+    font-size: 30px;
+    color: rgb(228,58, 44);
+    padding-left: 20px;
+}
+
+.card-content{
+    padding-left: 20px;
+}
+
+.card-price{
+    font-size: 45px;
+}
+
+.card-button{
+    margin-top: 10px;
+    padding: 10px;
+    @include button-outline-variant($brand-color,white, lighten($brand-color,5%), $brand-color);
+}
+
+
+
+
+
