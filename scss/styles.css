@@ -75,7 +75,7 @@ nav {
 }
 
 .card:hover {
-  border: #e43a2c solid 1px;
+  border: #e43a2c 1px solid;
 }
 
 .card-title {
