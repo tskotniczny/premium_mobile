@@ -1,0 +1,33 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../abstracts/variables";
+
+
+.city-collapse-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.city-address-card{
+    width: 100%;
+}
+
+.city-address-card__title{
+    color: $secondary-brand-color;
+}
+
+.icon-location{
+    height: 28px;
+    width: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 7px;
+
+}
+
+.city-address-card__location-name{
+    display: inline-block;
+    vertical-align: middle;
+}

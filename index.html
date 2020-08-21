@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html id="html" class="no-js">
 <!--<![endif]-->
 
 <head>
@@ -20,8 +20,20 @@
 </head>
 <header id="site-header" class="site-header bg-white">
     <div class="header-container">
-        <div class="header">
+        <div class="logo-container">
             <img class="logo" border="0" alt="premium-logo" src="images/logo.jpg" width="100" height="100">
+        </div>
+        <div class="cities-container d-flex">
+            <a href="#html"> <button type="button" class="city btn btn-outline-dark" data-toggle="collapse"
+                    data-target="#collapseRybnik" href="#collapseRybnik" role="button" aria-expanded="false"
+                    aria-controls="collapseRybnik">Rybnik</button> </a>
+            <a href="#html"> <button type="button" class="city btn btn-outline-dark" data-toggle="collapse"
+                    data-target="#collapseZory" href="#collapseZory" role="button" aria-expanded="false"
+                    aria-controls="collapseZory">Żory </button> </a>
+            <button type="button" class="city btn btn-outline-dark">Knurow</button>
+            <a href="#html"> <button type="button" class="city btn btn-outline-dark" data-toggle="collapse"
+                data-target="#collapseGliwice" href="#collapseGliwice" role="button" aria-expanded="false"
+                aria-controls="collapseGliwice">Gliwice </button> </a>
         </div>
     </div>
     <!-- BOOTSTRAP NAVBAR -->
@@ -59,14 +71,221 @@
 </header>
 
 <body>
-    <div class="content container bg-light" style="height: 1800px;">
+    <div id="body" class="content container bg-light" style="height: 1800px;">
+        <div class="city-collapse-container collapse" id="collapseRybnik">
+            <div class="city-address-card card card-body">
+                <div class="city-address-card__title">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="icon-location bi bi-geo-alt"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    <h2 class="city-address-card__location-name"> Rybnik </h2>
+                </div>
+                <div class="shop-cards-container">
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> Unikom Auchan Rybnik </p>
+                        <p> ul. Kotucza
+                            <br>
+                            44-200 Rybnik
+                            <br>
+                            tel. 609099478
+                            <br>
+                            www.unikomgsm.pl
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-sb 9:00-21:00 nd 10:00-18:00
+                            <br>
+                            <br>
+                            <a target="_blank"
+                                href="https://maps.google.com?saddr=Current+Location&amp;daddr=50.095332,18.526999">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> P2 Mobile.Electronic </p>
+                        <p> ul. Gliwicka 45
+                            <br>
+                            44-200 Rybnik
+                            <br>
+                            tel. 796133898
+                            <br>
+                            carrefourrybnik@gmail.com
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-nd 9:00-21:00
+                            <br>
+                            <br>
+                            <a target="_blank" href="https://maps.google.com/?saddr=Current+Location&daddr=50.112998,18.545809">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="city-collapse-container collapse" id="collapseZory">
+            <div class="city-address-card card card-body">
+                <div class="city-address-card__title">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="icon-location bi bi-geo-alt"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    <h2 class="city-address-card__location-name"> Żory </h2>
+                </div>
+                <div class="shop-cards-container">
+                    <div class="shop-address-card card-body ">
+                        <p class="city-address-card__shop-name"> MobileStar </p>
+                        <p> ul. T.Kościuszki 8
+                            <br>
+                            44-240 Żory
+                            <br>
+                            tel. 601866223
+                            <br>
+                            mobilestar@op.pl
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-pt 10:00-17:00 sb 10:00-13:00
+                            <br>
+                            <br>
+                            <a target="_blank"
+                                href="https://maps.google.com/?saddr=Current+Location&daddr=50.045113,18.695218">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> Partner PREMIUM MOBILE </p>
+                        <p> ul. Folwarecka 2
+                            <br>
+                            44-240 Żory
+                            <br>
+                            tel. 537301996
+                            <br>
+                            zory.folwarecka_2@sprzedaz.premiummobile.pl
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-pt 9:00-17:00
+                            <br>
+                            <br>
+                            <a target="_blank" href="https://maps.google.com/?saddr=Current+Location&daddr=50.043392,18.688868">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="city-collapse-container collapse" id="collapseGliwice">
+            <div class="city-address-card card card-body">
+                <div class="city-address-card__title">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="icon-location bi bi-geo-alt"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    <h2 class="city-address-card__location-name"> Gliwice </h2>
+                </div>
+                <div class="shop-cards-container">
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> Unikom Forum </p>
+                        <p> ul. Lipowa 1
+                            <br>
+                            44-102 Gliwice
+                            <br>
+                            tel. 537727575
+                            <br>
+                            gliwice.galeriaforum@sprzedaz.premiummobile.pl
+                            <br>
+                            www: www.smartconnect.com.pl
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-sb 9:00-20:00 nd 10:00-20:00
+                            <br>
+                            <br>
+                            <a target="_blank"
+                                href="https://maps.google.com/?saddr=Current+Location&daddr=50.299922,18.683193">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> POWER PHONE </p>
+                        <p> ul. Rybnicka 207
+                            <br>
+                            44-122 Gliwice
+                            <br>
+                            tel. 797758505
+                            <br>
+                            gliwice.rybnicka_207@sprzedaz.premiummobile.pl
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-nd 9:00-21:00
+                            <br>
+                            <br>
+                            <a target="_blank" href="https://maps.google.com/?saddr=Current+Location&daddr=50.256466,18.656609">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> MARTEX </p>
+                        <p> ul. Korczoka 51
+                            <br>
+                            44-103 Gliwice
+                            <br>
+                            tel. 791820050
+                            <br>
+                            gliwice.korczoka_51@sprzedaz.premiummobile.pl
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-sb 6:00-19:00
+                            <br>
+                            <br>
+                            <a target="_blank" href="https://maps.google.com/?saddr=Current+Location&daddr=50.292763,18.731526">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> Smartconnect 2 </p>
+                        <p> ul. Lipowa 1
+                            <br>
+                            41-100 Gliwice
+                            <br>
+                            tel. 795765522
+                            <br>
+                            gf@smartconnect.com.pl
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-pt 9:00-21:00
+                            <br>
+                            <br>
+                            <a target="_blank" href="https://maps.google.com/?saddr=Current+Location&daddr=50.300581,18.681413">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="youtube-embed text-center">
             <iframe width="783" height="392" src="https://www.youtube.com/embed/UQIlYcy0cKU" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
         <div class="cards-container">
-            <div class="card text-center">
+            <div class="offer-card card text-center">
                 <h1 class="card-title">FreedomPL</h1>
                 <p class="card-content"> Rozmowy do wszystkich sieci komórkowych i SMS-y BEZ LIMITU oraz 3 GB internetu
                     w telefonie </p>
@@ -74,21 +293,21 @@
                 <button type="button" class="card-button btn btn-outline-info" data-toggle="modal"
                     data-target="#FreedomPL-modal">Wiecej</button>
             </div>
-            <div class="card text-center">
+            <div class="offer-card card text-center">
                 <h1 class="card-title">Freedom1</h1>
                 <p class="card-content"> Rozmowy do wszystkich sieci komórkowych i SMS-y BEZ LIMITU oraz 10 GB internetu
                     w telefonie! </p>
                 <p class="card-price">19,90 zł</p>
                 <button type="button" class="card-button btn btn-outline-info">Wiecej</button>
             </div>
-            <div class="card text-center">
+            <div class="offer-card card text-center">
                 <h1 class="card-title">Freedom2</h1>
                 <p class="card-content"> Rozmowy do wszystkich i na stacjonarne, SMS-y i MMS-y BEZ LIMITU i 20 GB
                     internetu! </p>
                 <p class="card-price">24,70 zł</p>
                 <button type="button" class="card-button btn btn-outline-info">Wiecej</button>
             </div>
-            <div class="card text-center">
+            <div class="offer-card card text-center">
                 <h1 class="card-title">Freedom3</h1>
                 <p class="card-content"> Rozmowy do wszystkich i na stacjonarne, SMS-y i MMS-y BEZ LIMITU i 30 GB
                     internetu! </p>
@@ -108,7 +327,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title text-center" id="staticBackdropLabel">FreedomPL</h5>
-                    <button id="modal-close-button"type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <button id="modal-close-button" type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
@@ -161,6 +380,8 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript">
 
+
+        //sticky header
         let scrollpos = window.scrollY
         console.log(scrollpos);
         const header = document.getElementById('site-header')
@@ -175,9 +396,19 @@
 
             if (scrollpos >= header_height + 57) { add_class_on_scroll() }
             else { remove_class_on_scroll() }
+
+            console.log(header_height)
         })
 
 
+        //collapse div whenever other div is opened
+        $(document).ready(function () {
+            $('.collapse').on('show.bs.collapse', function () {
+                $('.collapse.show').each(function () {
+                    $(this).collapse('hide');
+                });
+            });
+        });
 
     </script>
 

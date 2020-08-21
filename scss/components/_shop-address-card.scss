@@ -1,0 +1,22 @@
+$shop-card-title-color:  rgb(82, 76, 76);
+
+
+.shop-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop-address-card{
+    margin-top: 15px;
+    max-width: 50%;
+
+    &:nth-child(odd){
+        border-right: lightgrey 1px solid;
+    }
+}
+
+.city-address-card__shop-name{
+    font-size: 18px;
+    font-weight: bold;
+    color: $shop-card-title-color;
+    text-decoration: underline;
+}
