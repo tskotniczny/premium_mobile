@@ -59,6 +59,11 @@ nav {
   }
 }
 
+footer {
+  height: 72px;
+  background-color: lightgrey;
+}
+
 .cards-container {
   padding: 20px;
   display: -webkit-box;
