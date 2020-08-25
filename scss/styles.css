@@ -14,10 +14,26 @@ iframe {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   border-bottom: solid lightgrey 1px;
+}
+
+.logo-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.cities-container {
+  width: 100%;
+}
+
+.city {
+  width: 80px;
+  margin: 10px;
+}
+
+nav {
+  -webkit-box-shadow: 0 px 10px -4px lightgrey !important;
+          box-shadow: 0 px 10px -4px lightgrey !important;
 }
 
 .fixed-top {
@@ -26,11 +42,6 @@ iframe {
           animation: fadeIn 1s ease-in both;
   -webkit-box-shadow: 0px 1px 10px lightgrey;
           box-shadow: 0px 1px 10px lightgrey;
-}
-
-nav {
-  -webkit-box-shadow: 0 px 10px -4px lightgrey !important;
-          box-shadow: 0 px 10px -4px lightgrey !important;
 }
 
 @-webkit-keyframes fadeIn {
@@ -74,12 +85,12 @@ footer {
           justify-content: space-between;
 }
 
-.card {
+.offer-card {
   padding: 20px;
   width: 260px;
 }
 
-.card:hover {
+.offer-card:hover {
   border: #e43a2c 1px solid;
 }
 
@@ -141,5 +152,55 @@ footer {
 
 #modal-close-button {
   margin: -15px -15px -15px -15px;
+}
+
+.city-collapse-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.city-address-card {
+  width: 100%;
+}
+
+.city-address-card__title {
+  color: #dc291a;
+}
+
+.icon-location {
+  height: 28px;
+  width: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 7px;
+}
+
+.city-address-card__location-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.shop-cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.shop-address-card {
+  margin-top: 15px;
+  max-width: 50%;
+}
+
+.shop-address-card:nth-child(odd) {
+  border-right: lightgrey 1px solid;
+}
+
+.city-address-card__shop-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #524c4c;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=styles.css.map */
