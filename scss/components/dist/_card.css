@@ -1,0 +1,67 @@
+.cards-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 991.98px) {
+  .cards-container {
+    flex-wrap: wrap;
+  }
+}
+
+.offer-card {
+  padding: 20px;
+  width: 260px;
+  margin: 3px;
+}
+.offer-card:hover {
+  border: #e43a2c 1px solid;
+}
+@media (max-width: 991.98px) {
+  .offer-card {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+  }
+}
+
+.card-title {
+  font-size: 30px;
+  color: #e43a2c;
+  padding-left: 20px;
+}
+
+.card-content {
+  padding-left: 20px;
+}
+
+.card-price {
+  font-size: 45px;
+}
+
+.card-button {
+  margin-top: 10px;
+  padding: 10px;
+  color: #e43a2c;
+  border-color: #e43a2c;
+}
+.card-button:hover {
+  color: white;
+  background-color: #e74f43;
+  border-color: #e43a2c;
+}
+.card-button:focus, .card-button.focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 58, 44, 0.5);
+}
+.card-button.disabled, .card-button:disabled {
+  color: #e43a2c;
+  background-color: transparent;
+}
+.card-button:not(:disabled):not(.disabled):active, .card-button:not(:disabled):not(.disabled).active, .show > .card-button.dropdown-toggle {
+  color: #fff;
+  background-color: #e74f43;
+  border-color: #e43a2c;
+}
+.card-button:not(:disabled):not(.disabled):active:focus, .card-button:not(:disabled):not(.disabled).active:focus, .show > .card-button.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 58, 44, 0.5);
+}

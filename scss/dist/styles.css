@@ -1,0 +1,163 @@
+iframe {
+  margin-top: 30px;
+}
+
+.site-header {
+  box-shadow: 0 px 10px -4px lightgrey !important;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  border-bottom: solid lightgrey 1px;
+}
+
+.logo-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.cities-container {
+  width: 100%;
+}
+
+.city {
+  width: 80px;
+  margin: 10px;
+}
+
+nav {
+  box-shadow: 0 px 10px -4px lightgrey !important;
+}
+
+.fixed-top {
+  opacity: 350;
+  animation: fadeIn 1s ease-in both;
+  box-shadow: 0px 1px 10px lightgrey;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+footer {
+  height: 72px;
+  background-color: lightgrey;
+}
+
+.cards-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer-card {
+  padding: 20px;
+  width: 260px;
+}
+.offer-card:hover {
+  border: #e43a2c 1px solid;
+}
+
+.card-title {
+  font-size: 30px;
+  color: #e43a2c;
+  padding-left: 20px;
+}
+
+.card-content {
+  padding-left: 20px;
+}
+
+.card-price {
+  font-size: 45px;
+}
+
+.card-button {
+  margin-top: 10px;
+  padding: 10px;
+  color: #e43a2c;
+  border-color: #e43a2c;
+}
+.card-button:hover {
+  color: white;
+  background-color: #e74f43;
+  border-color: #e43a2c;
+}
+.card-button:focus, .card-button.focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 58, 44, 0.5);
+}
+.card-button.disabled, .card-button:disabled {
+  color: #e43a2c;
+  background-color: transparent;
+}
+.card-button:not(:disabled):not(.disabled):active, .card-button:not(:disabled):not(.disabled).active, .show > .card-button.dropdown-toggle {
+  color: #fff;
+  background-color: #e74f43;
+  border-color: #e43a2c;
+}
+.card-button:not(:disabled):not(.disabled):active:focus, .card-button:not(:disabled):not(.disabled).active:focus, .show > .card-button.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(228, 58, 44, 0.5);
+}
+
+.modal-title {
+  font-size: 50px;
+  color: #e43a2c;
+  margin: 15px auto;
+}
+
+#modal-close-button {
+  margin: -15px -15px -15px -15px;
+}
+
+.city-collapse-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.city-address-card {
+  width: 100%;
+}
+
+.city-address-card__title {
+  color: #dc291a;
+}
+
+.icon-location {
+  height: 28px;
+  width: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 7px;
+}
+
+.city-address-card__location-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.shop-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop-address-card {
+  margin-top: 15px;
+  max-width: 50%;
+}
+.shop-address-card:nth-child(odd) {
+  border-right: lightgrey 1px solid;
+}
+
+.city-address-card__shop-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #524c4c;
+  text-decoration: underline;
+}

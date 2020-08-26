@@ -14,13 +14,30 @@
     margin-right: 100px;
 }
 
-.cities-container{
-    width: 100%;
+.logo{
+    width:130px;
+    height: 130px;
 }
 
-.city{
+.cities-container{
+    display: flex;
+
+    @include media-breakpoint-down(md) {
+        align-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+     }
+}
+
+.city-btn{
     width: 80px;
     margin: 10px;
+}
+
+.city-link{
+    &:hover{
+        text-decoration: none;
+    }
 }
 
 nav{
