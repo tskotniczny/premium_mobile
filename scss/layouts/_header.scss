@@ -23,6 +23,12 @@
     margin: 10px;
 }
 
+.city-link{
+    &:hover{
+        text-decoration: none;
+    }
+}
+
 nav{
     box-shadow: 0 px 10px -4px lightgrey !important;
     

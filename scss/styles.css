@@ -31,6 +31,10 @@ iframe {
   margin: 10px;
 }
 
+.city-link:hover {
+  text-decoration: none;
+}
+
 nav {
   -webkit-box-shadow: 0 px 10px -4px lightgrey !important;
           box-shadow: 0 px 10px -4px lightgrey !important;
