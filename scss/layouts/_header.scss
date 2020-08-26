@@ -14,9 +14,19 @@
     margin-right: 100px;
 }
 
+.logo{
+    width:130px;
+    height: 130px;
+}
+
 .cities-container{
     display: flex;
-    width: 100%;
+
+    @include media-breakpoint-down(md) {
+        align-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px;
+     }
 }
 
 .city-btn{
