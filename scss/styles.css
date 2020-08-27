@@ -280,6 +280,15 @@ footer {
   border-right: lightgrey 1px solid;
 }
 
+@media (max-width: 575.98px) {
+  .shop-address-card {
+    max-width: 100%;
+  }
+  .shop-address-card:nth-child(odd) {
+    border-right: none;
+  }
+}
+
 .city-address-card__shop-name {
   font-size: 18px;
   font-weight: bold;

@@ -12,6 +12,14 @@ $shop-card-title-color:  rgb(82, 76, 76);
     &:nth-child(odd){
         border-right: lightgrey 1px solid;
     }
+
+    @include media-breakpoint-down(xs) { 
+        max-width: 100%;
+
+        &:nth-child(odd){
+            border-right: none;
+        }
+    }
 }
 
 .city-address-card__shop-name{
