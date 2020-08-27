@@ -5,13 +5,25 @@
 .header-container{
     display: flex;
     align-items: center;
+    justify-items: center;
 
     border-bottom: solid lightgrey 1px;
+
+    @include media-breakpoint-down(xs) { 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 
 .logo-container{
     margin-left: 100px;
     margin-right: 100px;
+    @include media-breakpoint-down(xs) { 
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 .logo{
@@ -21,12 +33,20 @@
 
 .cities-container{
     display: flex;
+    width: 80%;
+
+    @include media-breakpoint-down(xs) { 
+        align-content: space-around;
+        width: 100%;
+    }
 
     @include media-breakpoint-down(md) {
         align-content: space-between;
+        justify-content: flex-start;
         flex-wrap: wrap;
         padding: 20px;
      }
+
 }
 
 .city-btn{
@@ -37,6 +57,12 @@
 .city-link{
     &:hover{
         text-decoration: none;
+    }
+
+    @include media-breakpoint-down(xs) { 
+        display: flex;
+        justify-content: center;
+        width: 50%;
     }
 }
 
