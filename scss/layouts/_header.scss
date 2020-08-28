@@ -31,8 +31,8 @@
     height: 120px;
 
     @include media-breakpoint-down(xs) { 
-        width: 90px;
-        height: 90px;
+        width: 120px;
+        height: 120px;
     }
 }
 
@@ -40,10 +40,7 @@
     display: flex;
     width: 80%;
 
-    @include media-breakpoint-down(xs) { 
-        align-content: space-around;
-        width: 100%;
-    }
+
 
     @include media-breakpoint-down(md) {
         align-content: space-between;
@@ -52,14 +49,28 @@
         padding: 20px;
      }
 
+     @include media-breakpoint-down(xs) { 
+        align-content: space-around;
+        width: 100%;
+        padding-top: 0px;
+    }
+
 }
 
 .city-btn{
     width: 80px;
     margin: 10px;
+    
+    @include media-breakpoint-down(xs) { 
+        width: 70px;
+        margin: 2px;
+        padding: 5px;
+    }
+
 }
 
 .city-link{
+    text-align: center;
     &:hover{
         text-decoration: none;
     }
@@ -67,7 +78,7 @@
     @include media-breakpoint-down(xs) { 
         display: flex;
         justify-content: center;
-        width: 50%;
+        width: 25%;
     }
 }
 
