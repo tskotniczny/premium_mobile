@@ -368,8 +368,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- MODALS end-->
+    </div> <!-- MODALS end-->
+
     <script src="" async defer></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -396,7 +396,7 @@
         window.addEventListener('scroll', function () {
             scrollpos = window.scrollY;
 
-            if (scrollpos >= header_height + 57) { add_class_on_scroll() }
+            if (scrollpos >= header_height - 80) { add_class_on_scroll() }
             else { remove_class_on_scroll() }
 
             console.log(header_height)
