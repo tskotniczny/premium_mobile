@@ -314,4 +314,16 @@ footer {
   color: #524c4c;
   text-decoration: underline;
 }
+
+.accordion {
+  padding: 20px;
+}
+
+.secondary-brand-color {
+  color: #dc291a;
+}
+
+.card button {
+  white-space: normal;
+}
 /*# sourceMappingURL=styles.css.map */

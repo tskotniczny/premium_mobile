@@ -9,21 +9,77 @@ iframe {
 .header-container {
   display: flex;
   align-items: center;
+  justify-items: center;
   border-bottom: solid lightgrey 1px;
+}
+@media (max-width: 575.98px) {
+  .header-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .logo-container {
   margin-left: 100px;
   margin-right: 100px;
 }
-
-.cities-container {
-  width: 100%;
+@media (max-width: 575.98px) {
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 }
 
-.city {
+.logo {
+  width: 120px;
+  height: 120px;
+}
+
+.cities-container {
+  display: flex;
+  width: 80%;
+}
+@media (max-width: 991.98px) {
+  .cities-container {
+    align-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+}
+@media (max-width: 575.98px) {
+  .cities-container {
+    align-content: space-around;
+    width: 100%;
+    padding-top: 0px;
+  }
+}
+
+.city-btn {
   width: 80px;
   margin: 10px;
+}
+@media (max-width: 575.98px) {
+  .city-btn {
+    width: 70px;
+    margin: 2px;
+    padding: 5px;
+  }
+}
+
+.city-link {
+  text-align: center;
+}
+.city-link:hover {
+  text-decoration: none;
+}
+@media (max-width: 575.98px) {
+  .city-link {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+  }
 }
 
 nav {
@@ -34,6 +90,11 @@ nav {
   opacity: 350;
   animation: fadeIn 1s ease-in both;
   box-shadow: 0px 1px 10px lightgrey;
+}
+@media (max-width: 575.98px) {
+  .fixed-top {
+    position: relative;
+  }
 }
 
 @keyframes fadeIn {
@@ -54,15 +115,28 @@ footer {
 .cards-container {
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+@media (max-width: 991.98px) {
+  .cards-container {
+    flex-wrap: wrap;
+  }
 }
 
 .offer-card {
   padding: 20px;
   width: 260px;
+  margin: 3px;
 }
 .offer-card:hover {
   border: #e43a2c 1px solid;
+}
+@media (max-width: 991.98px) {
+  .offer-card {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 10px;
+  }
 }
 
 .card-title {
@@ -154,10 +228,22 @@ footer {
 .shop-address-card:nth-child(odd) {
   border-right: lightgrey 1px solid;
 }
+@media (max-width: 575.98px) {
+  .shop-address-card {
+    max-width: 100%;
+  }
+  .shop-address-card:nth-child(odd) {
+    border-right: none;
+  }
+}
 
 .city-address-card__shop-name {
   font-size: 18px;
   font-weight: bold;
   color: #524c4c;
   text-decoration: underline;
+}
+
+.accordion {
+  padding: 20px;
 }
