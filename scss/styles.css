@@ -292,7 +292,7 @@ footer {
 
 .shop-address-card {
   margin-top: 15px;
-  max-width: 50%;
+  min-width: 50%;
 }
 
 .shop-address-card:nth-child(odd) {

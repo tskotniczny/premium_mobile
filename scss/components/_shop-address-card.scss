@@ -7,7 +7,7 @@ $shop-card-title-color:  rgb(82, 76, 76);
 }
 .shop-address-card{
     margin-top: 15px;
-    max-width: 50%;
+    min-width: 50%;
 
     &:nth-child(odd){
         border-right: lightgrey 1px solid;
