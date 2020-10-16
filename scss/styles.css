@@ -357,6 +357,12 @@ footer {
   width: 45%;
 }
 
+@media (max-width: 767.98px) {
+  .group-card {
+    width: 100%;
+  }
+}
+
 .group-card:hover {
   border: #e43a2c 1px solid;
 }
@@ -366,5 +372,11 @@ footer {
       -ms-grid-row-align: center;
       align-self: center;
   width: 70%;
+}
+
+@media (max-width: 767.98px) {
+  .group-card-button {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

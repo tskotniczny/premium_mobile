@@ -18,6 +18,10 @@
     margin: 5px;
     width: 45%;
 
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+     }
+
     &:hover{
         border: $brand-color 1px solid;
     }
@@ -26,5 +30,10 @@
 .group-card-button{
     align-self: center;
     width: 70%;
+
+
+    @include media-breakpoint-down(sm) {
+        width: 50%;
+     }
 }
 
