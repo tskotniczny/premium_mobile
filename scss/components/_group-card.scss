@@ -4,3 +4,27 @@
 
 @import "../abstracts/variables";
 
+
+.group-cards-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.group-card{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 45%;
+
+    &:hover{
+        border: $brand-color 1px solid;
+    }
+}
+
+.group-card-button{
+    align-self: center;
+    width: 70%;
+}
+
