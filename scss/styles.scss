@@ -5,7 +5,7 @@
 
 
 //PAGES
-@import 'index';
+@import '../index';
 
 
 //LAYOUTS
@@ -19,6 +19,7 @@
 @import 'components/_city-card-collapse';
 @import 'components/_shop-address-card';
 @import 'components/accordion-wspolpraca';
+@import 'components/group-card';
 
 //VARIABLES
 @import 'abstracts/variables';
