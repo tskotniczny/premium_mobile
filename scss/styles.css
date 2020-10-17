@@ -380,6 +380,10 @@ footer {
 }
 
 /* Floating Social Media Bar Style Starts Here */
+.float-sm {
+  color: #fff !important;
+}
+
 .fl-fl {
   background: #3b5998;
   text-transform: uppercase;
@@ -412,15 +416,18 @@ footer {
   }
 }
 
-.fl-fl a {
+.fl-fl p {
   color: #fff !important;
   text-decoration: none;
   text-align: center;
-  line-height: 43px !important;
-  vertical-align: top !important;
+  vertical-align: middle !important;
+  display: inline-block;
+  padding-top: 10px;
 }
 
 .float-fb {
+  display: inline-block;
+  margin: 0;
   top: 40%;
 }
 
