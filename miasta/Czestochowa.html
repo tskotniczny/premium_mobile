@@ -15,18 +15,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
         integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="scss/styles.css">
+    <link rel="stylesheet" href="../scss/styles.css">
 
 </head>
 <header id="site-header" class="site-header bg-white">
     <div class="header-container">
         <div class="logo-container">
-            <img class="logo" border="0" alt="premium-logo" src="images/logo.jpg">
+            <img class="logo" border="0" alt="premium-logo" src="../images/logo.jpg">
         </div>
         <div class="cities-container">
             <a class="city-link" href="#html"> <button type="button" class="city-btn btn btn-outline-dark"
-                    data-toggle="collapse" data-target="#collapseRaciborz" href="#collapseRaciborz" role="button"
-                    aria-expanded="false" aria-controls="collapseRaciborz"> Racibórz </button> </a>
+                    data-toggle="collapse" data-target="#collapseCzestochowa" href="#collapseCzestochowa" role="button"
+                    aria-expanded="false" aria-controls="collapseCzestochowa"> Częstochowa </button> </a>
+            <a class="city-link" href="#html"> <button type="button" class="city-btn btn btn-outline-dark"
+                    data-toggle="collapse" data-target="#collapseWielun" href="#collapseWielun" role="button"
+                    aria-expanded="false" aria-controls="collapseWielun"> Wieluń </button> </a>
+            <a class="city-link" href="#html"> <button type="button" class="city-btn btn btn-outline-dark"
+                    data-toggle="collapse" data-target="#collapseKluczbork" href="#collapseKluczbork" role="button"
+                    aria-expanded="false" aria-controls="collapseKluczbork">Kluczbork </button> </a>
+            <a class="city-link" href="#html"> <button type="button" class="city-btn btn btn-outline-dark"
+                data-toggle="collapse" data-target="#collapseLubliniec" href="#collapseLubliniec" role="button"
+                aria-expanded="false" aria-controls="collapseLubliniec"> Lubliniec </button> </a>
+            <a class="city-link" href="#html"> <button type="button" class="city-btn btn btn-outline-dark"
+                data-toggle="collapse" data-target="#collapseHadra" href="#collapseHadra" role="button"
+                aria-expanded="false" aria-controls="collapseHadra"> Hadra </button> </a>
         </div>
     </div>
     <!-- BOOTSTRAP NAVBAR -->
@@ -46,10 +58,11 @@
                         TU PODPISZESZ
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="cities/grupa1.html">Grupa 1</a>
-                        <a class="dropdown-item" href="cities/grupa2.html">Grupa 2</a>
-                        <a class="dropdown-item" href="cities/grupa3.html">Grupa 3</a>
-                        <a class="dropdown-item" href="cities/grupa4.html">Grupa 4</a>
+                        <a class="dropdown-item" href="../../obszary/obszar1.html">Bytom, Gliwice, Tarnowskie Góry</a>
+                        <a class="dropdown-item" href="../../obszary/obszar2.html">Kędzierzyn Koźle, Głogówek, Głubczyce, Krapkowice, Prudnik</a>
+                        <a class="dropdown-item" href="../../obszary/obszar3.html">Częstochowa, Wieluń, Kluczbork, Lubliniec, Hadra</a>
+                        <a class="dropdown-item" href="../../obszary/obszar4.html">Siemianowice Śląskie, Zawiercie, Myszków</a>
+                        <a class="dropdown-item" href="../../obszary/obszar5.html">Racibórz</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -66,7 +79,7 @@
 
 <body>
     <div id="body" class="content container bg-light">
-        <div class="city-collapse-container collapse" id="collapseRaciborz">
+        <div class="city-collapse-container collapse" id="collapseCzestochowa">
             <div class="city-address-card card card-body">
                 <div class="city-address-card__title">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="icon-location bi bi-geo-alt"
@@ -74,46 +87,232 @@
                         <path fill-rule="evenodd"
                             d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                     </svg>
-                    <h2 class="city-address-card__location-name"> Racibórz </h2>
+                    <h2 class="city-address-card__location-name"> Częstochowa </h2>
                 </div>
                 <div class="shop-cards-container">
                     <div class="shop-address-card card-body">
-                        <p class="city-address-card__shop-name"> Monetia Sp. z o.o. Agencja Monetia 2690 </p>
-                        <p> ul. Długa 6/3
+                        <p class="city-address-card__shop-name"> Agencja Ubezpieczeniowa </p>
+                        <p> ul. Skrzyneckiego 16/18
                             <br>
-                            47-400 Racibórz
+                            42-218 Częstochowa
                             <br>
+                            tel. 729882952
                             <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <a target="_blank"
-                                href="https://maps.google.com/?saddr=Current+Location&daddr=50.091618,18.218575">Zaplanuj
-                                dojazd do salonu</a>
-                        </p>
-                    </div>
-                    <div class="shop-address-card card-body">
-                        <p class="city-address-card__shop-name"> Monetia Sp. z o.o. Agencja Monetia 2691 </p>
-                        <p> ul. Rynek 13
-                            <br>
-                            47-400 Racibórz
+                            joannakocinska@poczta.fm
                             <br>
                             <br>
+                            Godziny otwarcia:
                             <br>
-                            <br>
-                            <br>
+                            pn-pt 9:00-17:00 sb 9:00-13:00
                             <br>
                             <br>
                             <a target="_blank"
-                                href="https://maps.google.com/?saddr=Current+Location&daddr=50.092416,18.219467">Zaplanuj
+                                href="https://maps.google.com/?saddr=Current+Location&daddr=50.820160,19.110430">Zaplanuj
                                 dojazd do salonu</a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="city-collapse-container collapse" id="collapseWielun">
+            <div class="city-address-card card card-body">
+                <div class="city-address-card__title">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="icon-location bi bi-geo-alt"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    <h2 class="city-address-card__location-name"> Wieluń </h2>
+                </div>
+                <div class="shop-cards-container">
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> Koncept IT </p>
+                        <p> ul. Sieradzka 2
+                            <br>
+                            98-300 Wieluń
+                            <br>
+                            tel. 535071312
+                            <br>
+                            biuro@koncept-it.pl
+                            <br>
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-pt 8:00-17:00 sb 9:00-13:00
+                            <br>
+                            <br>
+                            <a target="_blank"
+                                href="https://maps.google.com/?saddr=Current+Location&daddr=51.221805,18.563281">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="city-collapse-container collapse" id="collapseKluczbork">
+            <div class="city-address-card card card-body">
+                <div class="city-address-card__title">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="icon-location bi bi-geo-alt"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    <h2 class="city-address-card__location-name"> Kluczbork </h2>
+                </div>
+                <div class="shop-cards-container">
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> Ro - Nat GSM Kaufland </p>
+                        <p> ul. Jagiellońska 14
+                            <br>
+                            46-200 Kluczbork
+                            <br>
+                            tel. 792336859
+                            <br>
+                            kluczbork.jagiellonska_14@sprzedaz.premiummobile.pl
+                            <br>
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-sb 9:00-21:00 nd 9:00-19:00
+                            <br>
+                            <br>
+                            <a target="_blank"
+                                href="https://maps.google.com/?saddr=Current+Location&daddr=50.976257,18.217013">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> Monetia Sp. z o.o. Agencja Monetia 1506 </p>
+                        <p> ul. Rynek 7
+                            <br>
+                            46-200 Kluczbork
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a target="_blank"
+                                href="https://maps.google.com/?saddr=Current+Location&daddr=50.972883,18.213779">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="city-collapse-container collapse" id="collapseLubliniec">
+            <div class="city-address-card card card-body">
+                <div class="city-address-card__title">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="icon-location bi bi-geo-alt"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    <h2 class="city-address-card__location-name"> Lubliniec </h2>
+                </div>
+                <div class="shop-cards-container">
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> DEXON </p>
+                        <p> Plac Mańki 3
+                            <br>
+                            42-700 Lubliniec
+                            <br>
+                            tel. 886042042
+                            <br>
+                            lubliniec.manki_3@sprzedaz.premiummobile.pl
+                            <br>
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-pt 9:00-17:00 sb 9:00-13:00
+                            <br>
+                            <br>
+                            <a target="_blank"
+                                href="https://maps.google.com/?saddr=Current+Location&daddr=50.668640,18.682492">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="city-collapse-container collapse" id="collapseHadra">
+            <div class="city-address-card card card-body">
+                <div class="city-address-card__title">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="icon-location bi bi-geo-alt"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    <h2 class="city-address-card__location-name"> Hadra </h2>
+                </div>
+                <div class="shop-cards-container">
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> OUTLET67 </p>
+                        <p> ul. Koszęcińska 2 A
+                            <br>
+                            42-714 Hadra
+                            <br>
+                            tel. 729968866
+                            <br>
+                            hadra.koszecinska_2A@sprzedaz.premiummobile.pl
+                            <br>
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-pt 9:00-16:00 sb 9:00-13:00
+                            <br>
+                            <br>
+                            <a target="_blank"
+                                href="https://maps.google.com/?saddr=Current+Location&daddr=50.700204,18.822205">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="city-collapse-container collapse" id="collapsePrudnik">
+            <div class="city-address-card card card-body">
+                <div class="city-address-card__title">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="icon-location bi bi-geo-alt"
+                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    </svg>
+                    <h2 class="city-address-card__location-name"> Prudnik </h2>
+                </div>
+                <div class="shop-cards-container">
+                    <div class="shop-address-card card-body">
+                        <p class="city-address-card__shop-name"> Ro - Nat GSM </p>
+                        <p> ul. Piastowska 9
+                            <br>
+                            48-200 Prudnik
+                            <br>
+                            tel. 883604588
+                            <br>
+                            prudnik.wiejska_4@sprzedaz.premiummobile.pl
+                            <br>
+                            <br>
+                            <br>
+                            Godziny otwarcia:
+                            <br>
+                            pn-sb 10:00-21:00 nd 10:00-20:00
+                            <br>
+                            <br>
+                            <a target="_blank"
+                                href="https://maps.google.com/?saddr=Current+Location&daddr=50.321450,17.578640">Zaplanuj
+                                dojazd do salonu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
         <div class="youtube-embed text-center">
             <iframe width="95%" height="400px" src="https://www.youtube.com/embed/UQIlYcy0cKU" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
